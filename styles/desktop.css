@@ -1,0 +1,39 @@
+.bandeau_recherche {
+  display: flex;
+  border: 2px solid black;
+  width: 80%;
+  height: 100px;
+  margin: 20px auto;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.départ {
+  border: 2px solid black;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.arrivée {
+  border: 2px solid black;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.date {
+  border: 2px solid black;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.passager {
+  border: 2px solid black;
+  min-width: 50px;
+  min-height: 50px;
+}
+.rechercher {
+  border: 2px solid black;
+  min-width: 50px;
+  min-height: 50px;
+}
