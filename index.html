@@ -10,7 +10,10 @@
 </head>
 <body>
     <header>
-            <img src="" alt="Logo Covoitu-basque" height="100" title="Covoitu-basque Logo">
+        <div id="En-tête">
+            <img src="" alt="Logo Covoitu-basque" height="100">
+            <img src="" alt="Photo de profil" height="100">
+        </div>
     </header>
     <div id="bandeau_recherche">
         <div id ="Départ">
@@ -20,17 +23,25 @@
             <input type="text" placeholder="Arrivée">
         </div>
         <div id ="Date">
-            <input type="text" placeholder="Date">
+            <form>
+            <label>Date:</label>
+            <input type="date">
+            </form>
         </div>
-        <form>
-            <select id="Passager(s)">
+        <div id="Passager(s)">
+            <form>
             <label>Passager(s):</label>
+            <select id="Passager(s)">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
             </select>
-        </form>
+            </form>
+        </div>
+        <div id="Rechercher">
+            <input type="button" value="Rechercher">
+        </div>
     </div>
     
 </body>
