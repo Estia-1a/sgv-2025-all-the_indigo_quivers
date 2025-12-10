@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)"> 
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)"> 
+    <title>Covoitu-basque</title>
+</head>
+<body>
+    <header>
+            <img src="" alt="Logo Covoitu-basque" height="300" title="Covoitu-basque Logo">
+        </header>
+        <img src="" alt="Photo de profil" height="100" title="Photo de profil">
+     <div>
+<label >Nom</label><br>
+<input type="text" id="nom" name="nom"><br><br>
+<label >Prénom</label><br>
+<input type="text" id="prenom" name="prenom"><br><br>
+<button onclick="window.location.href='informations.html'">
+    Informations personnelles
+</button>
+<button onclick="window.location.href='Avisbouton.html'">
+    Avis
+</button>
+    <div id ="notation">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation 1/2" height="100" title="etoile de notation demi pleine">
+    </div>
+</body>
+</html>
