@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)"> 
+    <link rel="stylesheet" href="profil.css" media="screen and (min-width: 768px)"> 
     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)"> 
     <title>Covoitu-basque</title>
 </head>
 <body>
     <header>
-            <img src="" alt="Logo Covoitu-basque" height="300" title="Covoitu-basque Logo">
+            <img src="Logocovoitu-basque.jpg" alt="Logo Covoitu-basque" height="300" title="Covoitu-basque Logo">
         </header>
         <img src="" alt="Photo de profil" height="100" title="Photo de profil">
      <div>
