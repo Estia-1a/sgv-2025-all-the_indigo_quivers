@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="profil.css" media="screen and (min-width: 768px)"> 
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)"> 
+    <title>Covoitu-basque</title>
+</head>
+<body>
+    <header>
+            <img src="Logocovoitu-basque.jpg" alt="Logo Covoitu-basque" height="300" title="Covoitu-basque Logo">
+        </header>
+        <img src="" alt="Photo de profil" height="100" title="Photo de profil">
+     <div>
+    <div align="right">
+    <button>
+        <img src="image_ronde.png" width="80" height="80" alt="Profil clickable">
+    </button>
+    <br>
+    connecté
+</div>
+</div>    
+<label >Nom</label><br>
+<input type="text" id="nom" name="nom"><br><br>
+<label >Prénom</label><br>
+<input type="text" id="prenom" name="prenom"><br><br>
+<button onclick="window.location.href='informations.html'">
+    Informations personnelles
+</button>
+<button onclick="window.location.href='Avisbouton.html'">Avis
+</button>
+     <form>
+               <label>Trajets</label> 
+<select id="topic">
+    <option>12/06/2025  Bayonne -> Bordeaux - ★★★★☆</option>
+    <option>18/04/2025  Biarritz -> Toulouse - ★★★☆☆</option>
+    <option>02/04/2025  Saint-Jean-de-Luz -> Pampelune - ★★★★★</option>
+    <option>20/02/2025  Hendaye -> San Sebastian - ★★★★☆</option>
+</select>
+            </form>
+    <button onclick="window.location.href='Voir plus.html'">Voir plus    
+        </button>    
+    <div id ="notation">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
+        <img src="" alt="etoile de notation 1/2" height="100" title="etoile de notation demi pleine">
+    </div>
+</body>
+</html>
