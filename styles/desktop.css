@@ -30,3 +30,69 @@
 #En-tête a:hover {
   background-color: #575757;
 }
+
+#Menu{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+#Accueil{
+  background: rgba(255, 0, 0, 0.707);
+  border-radius: 15px;
+  padding: 40px 30px;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+#Profil{
+  background: white;
+  border-radius: 15px;
+  padding: 40px 30px;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+#Informations_personnelles{
+  background: rgba(21, 255, 0, 0.665);
+  border-radius: 15px;
+  padding: 40px 30px;
+  width: 20%;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  
+}
+
+#Accueil a{
+  transition: background-color 0.3s;
+  color: inherit;
+  text-decoration: none;
+}
+
+#Accueil a:hover {
+  color: #4f4646;
+}
+
+#Profil a{
+  transition: background-color 0.3s;
+  color: inherit;
+  text-decoration: none;
+}
+
+#Informations_personnelles a{
+  transition: background-color 0.3s;
+  color: inherit;
+  text-decoration: none;
+}
+
+#Profil a:hover {
+  color: #4f4646;
+}
+
+#Informations_personnelles a:hover {
+  color: #4f4646;
+}
