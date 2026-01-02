@@ -5,11 +5,11 @@
   border: 2px solid black;
   width: 90%;
   border-radius: 5px;
-  height: 50px;
   margin: 20px auto;
   gap: 10px;
   align-items: center;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  padding:20px 20px;
 }
 #En-tête{
   display: flex;
@@ -38,7 +38,7 @@
 }
 
 #Accueil{
-  background: white;
+  background: rgba(255, 0, 0, 0.707);
   border-radius: 15px;
   padding: 40px 30px;
   width: 20%;
@@ -58,11 +58,41 @@
 }
 
 #Informations_personnelles{
-  background: white;
+  background: rgba(21, 255, 0, 0.665);
   border-radius: 15px;
   padding: 40px 30px;
   width: 20%;
   text-align: center;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+}
+
+#Accueil a{
+  transition: background-color 0.3s;
+  color: inherit;
+  text-decoration: none;
+}
+
+#Accueil a:hover {
+  color: #4f4646;
+}
+
+#Profil a{
+  transition: background-color 0.3s;
+  color: inherit;
+  text-decoration: none;
+}
+
+#Informations_personnelles a{
+  transition: background-color 0.3s;
+  color: inherit;
+  text-decoration: none;
+}
+
+#Profil a:hover {
+  color: #4f4646;
+}
+
+#Informations_personnelles a:hover {
+  color: #4f4646;
 }
