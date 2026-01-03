@@ -11,45 +11,52 @@
 <body>
     <header>
         <div id="En-tête">
-            <a href="index.html"><img src="media\pictures\Logocovoitu-basque.png" alt="Logocovoitu-basque" height="100"></a>
+            <a href="index.html"><img src="media/pictures/Logocovoitu-basque.png" alt="Logocovoitu-basque" height="100"></a>
             <h1>Covoitu-basque</h1>
-            <a href="Profil.html"><img src="media\pictures\Photo de profil.png" alt="Photo de profil" height="100"></a>
+            <a href="Profil.html"><img src="media/pictures/Photo_de_profil.png" alt="Photo_de_profil" height="100"></a>
         </div>
     </header>
-  
-<div id="centre">
-    
-<label >Nom</label><br>
-<input type="text" id="nom" name="nom"><br><br>
-<label >Prénom</label><br>
-<input type="text" id="prenom" name="prenom"><br><br>
-<button onclick="window.location.href='informations_personnelles.html'">
-    Informations personnelles
-</button>
+    <div id="centre">
+        <br>
+        <h3><label >Nom</label></h3>
+        <input type="text" id="nom" name="nom" placeholder="Doe"><br>
+        <h3><label >Prénom</label></h3>
+        <input type="text" id="prenom" name="prenom" placeholder="John"><br><br>
+        <button onclick="window.location.href='informations_personnelles.html'">
+            Informations personnelles
+        </button>
 <br><br>
-<form>
-    <label>Trajets</label> 
-        <select id="topic">
-            <option>12/06/2025  Bayonne -> Bordeaux - ★★★★☆</option>
-            <option>18/04/2025  Biarritz -> Toulouse - ★★★☆☆</option>
-            <option>02/04/2025  Saint-Jean-de-Luz -> Pampelune - ★★★★★</option>
-            <option>20/02/2025  Hendaye -> San Sebastian - ★★★★☆</option>
-        </select>
-</form> <br>
-    <button onclick="window.location.href='trajet.html'">Voir plus    
-        </button>    
+        <h3><label>Trajets</label></h3>
+        <form>
+            <select id="topic">
+                <option>12/06/2025  Bayonne -> Bordeaux - ★★★★☆</option>
+                <option>18/04/2025  Biarritz -> Toulouse - ★★★☆☆</option>
+                <option>02/04/2025  Saint-Jean-de-Luz -> Pampelune - ★★★★★</option>
+                <option>20/02/2025  Hendaye -> San Sebastian - ★★★★☆</option>
+            </select>
+        </form><br>
+        <button onclick="window.location.href='trajet.html'">Voir plus    
+            </button>    
+<br><br>
+            <div id ="notation">
+                <h3>Avis général</h3>
+                <h2>★★★★★</h2>
+            </div>
+            <button onclick="window.location.href='avis.html'">
+                Avis
+            </button>
+        </div>
 <br><br><br>
-    <div id ="notation">
-        <img src="media/pictures/etoiles_pleines.png" height="100" alt="etoile de notation pleine">
-        <img src="media/pictures/etoiles_pleines.png"  height="100" alt="etoile de notation pleine">
-        <img src="media/pictures/etoiles_pleines.png"  height="100" alt="etoile de notation pleine">
-        <img src="media/pictures/etoiles_pleines.png"  height="100" alt="etoile de notation pleine">
-        <img src="media/pictures/etoiles_moitie.png" height="100" alt="etoile de notation demi pleine">
-    </div>
-</body>
-<button onclick="window.location.href='avis.html'">
-    Avis
-</button>
-
-</div>
+        <div id="Menu">
+            <div id="Accueil">
+                <a href="index.html"><h3>Accueil</h3></a>
+            </div>
+            <div id="Profil">
+                <a href="Profil.html"><h3>Profil</h3></a>
+            </div>
+            <div id="Informations_personnelles">
+                <a href="informations_personnelles.html"><h3>Informations personnelles</h3></a>
+            </div>
+        </div>
+    </body>
 </html>
