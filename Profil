@@ -15,7 +15,7 @@
 
 <label>Prénom</label><br>
 <input type="text" id="prenom" name="prenom"><br><br>
-<button onclick="window.location.href='Informations_personnelles.html'">
+<button onclick="window.location.href='informations_personnelles.html'">
     Informations personnelles
 </button>
 
@@ -34,6 +34,7 @@
 <button onclick="window.location.href='Voir plus.html'">
     Voir plus
 </button>
+
 
 <br><br><br>
 
