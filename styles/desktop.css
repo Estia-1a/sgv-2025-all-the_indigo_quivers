@@ -103,14 +103,28 @@
   align-items: center;
   gap: 20px;
   }
-#Profil button {
-  margin-top: 12px;
-  padding: 6px 12px;
-  border: none;
-  border-radius: 4px;
-  background-color: #c62828;
-  color: white;
-  cursor: pointer;
+
+#trajet legend {
+    font-size: 1.5rem;
+    color: #8c031a;
+    font-weight: bold;
+    padding: 0 10px;
 }
 
+#trajets-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px;
+}
 
+#trajets-grid fieldset {
+    padding: 15px;
+}
+#notation {
+    text-align: center;
+}
+#centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
