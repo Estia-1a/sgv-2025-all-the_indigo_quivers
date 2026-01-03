@@ -128,3 +128,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+#avis legend {
+    font-size: 1.5rem;
+    color: #8c031a;
+    font-weight: bold;
+    padding: 0 10px;
+}
