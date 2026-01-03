@@ -17,8 +17,7 @@
 <button onclick="window.location.href='informations.html'">
     Informations personnelles
 </button>
-<button onclick="window.location.href='Avisbouton.html'">Avis
-</button>
+<br><br><br>
      <form>
                <label>Trajets</label> 
 <select id="topic">
@@ -30,12 +29,18 @@
             </form>
     <button onclick="window.location.href='Voir plus.html'">Voir plus    
         </button>    
+        <br><br><br>
+        
     <div id ="notation">
-        <img src="images/etoiles_pleines/etoile-pleine.svg" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
-        <img src="images/etoiles_pleines/etoile-pleine.svg" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
-        <img src="images/etoiles_pleines/etoile-pleine.svg" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
-        <img src="images/etoiles_pleines/etoile-pleine.svg" alt="etoile de notation pleine" height="100" title="etoile de notation pleine">
-        <img src="images/etoiles_moitie/etoile-moitie.svg" alt="etoile de notation 1/2" height="100" title="etoile de notation demi pleine">
+        <img src="media/images/etoiles_pleines/etoile-pleine.png" alt="etoile pleine" height="30">
+        <img src="media/images/etoiles_pleines/etoile-pleine.png" alt="etoile pleine" height="30">
+        <img src="media/images/etoiles_pleines/etoile-pleine.png" alt="etoile pleine" height="30">
+        <img src="media/images/etoiles_pleines/etoile-pleine.png" alt="etoile pleine" height="30">
+        <img src="media/images/etoiles_moitie/etoile-moitie.png" alt="etoile moitie" height="30">
+    </div>
+    </button>
+<button onclick="window.location.href='Avisbouton.html'">Avis
+</button>
     </div>
 </body>
 </html>
