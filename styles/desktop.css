@@ -96,3 +96,10 @@
 #Informations_personnelles a:hover {
   color: #4f4646;
 }
+
+#Profil a:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  }
