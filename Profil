@@ -31,7 +31,7 @@
     </select>
 </form>
 
-<button onclick="window.location.href='Voir plus.html'">
+<button onclick="window.location.href='trajet.html'">
     Voir plus
 </button>
 
